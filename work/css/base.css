@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*,::before,::after{margin: 0;padding: 0;-webkit-tap-highlight-color: transparent;
+/*清楚默认点击的效果*/
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family:"Microsoft YaHei",sans-serif;
+    /*第二个是手机默认的字体*/
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    /*清楚选中效果*/
+    -webkit-appearance: none;
+    /*清楚浏览器的默认样式*/
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix::before,.clearfix:after{
+    display: table;
+    line-height:0;
+    content: '';
+}
+.clearfix::after{
+    clear: both;
+}
+[class^="icon-"]{
+    background:url(../img/sprites.png)no-repeat;
+    background-size:200px 200px;
+}
+

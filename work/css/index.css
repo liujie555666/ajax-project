@@ -1,0 +1,134 @@
+@charset "UTF-8";
+.jd-footer{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 44px;
+    z-index: 28;
+    bottom: 0;
+    left: 0;
+}
+.foot-bar .foot-bar-tab{
+    height: 100%;
+    position: relative;
+}
+.foot-bar .foot-bar-tab li {
+    text-align: center;
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+.foot-bar .bar-img {
+    display: inline-block;
+    width: 57px;
+    height: 44px;
+}
+.foot-bar .bar-img i {
+    display: inline-block;
+    height: 100%;
+    width: 44px;
+    background-repeat:no-repeat;
+    background-size:100%;
+    overflow: hidden;
+}
+.foot-bar .pushButton1 i{
+    background-image: url(../img/board.png);
+}
+.foot-bar .pushButton2 i{
+    background-image: url(../img/home.png);
+}
+.foot-bar .pushButton3 i{
+    background-image: url(../img/profile.png);
+}
+.foot-bar .pushButton4 i{
+    background-image: url(../img/safari.png);
+}
+.foot-bar .pushButton1.current i{
+    background-image: url(../img/board-actived.png);
+}
+.foot-bar .pushButton2.current i{
+    background-image: url(../img/home-actived.png);
+}
+.foot-bar .pushButton3.current i{
+    background-image: url(../img/profile-actived.png);
+}
+.foot-bar .pushButton4.current i{
+    background-image: url(../img/safari-actived.png);
+}
+.jd-topbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    background-color:#efefef;
+    border-bottom:1px solid #bfbfbf;
+    z-index: 10000;
+}
+.jd-topbar .icon-back{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
+    background-position: -20px 0;
+}
+.jd-topbar .icon-menu{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-position: -60px 0;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.jd-topbar .jd-gwc-topb{
+    line-height:44px;
+    font-weight:inherit;
+    font-size: 18px;
+}
+#movies{
+    width: 100%;
+    margin:44px 0;
+}
+#movies li{
+    width: 100%;
+    padding:1.888888888888888%;
+    border-bottom:1px solid #e0e0e0;
+}
+#movies li a div{
+    float: left;
+}
+
+#movies li a .cont_average{
+    float: right;
+    color: #e26;
+    font-weight:700;
+}
+#movies li a .cont_tit{
+    padding:5px 10px;
+    width:55%;
+}
+#movies li a .cont_tit p{
+    margin-top:18px;
+    color: #666;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    vertical-align:top;
+}
+#movies li a .cont_tit h3{
+    /*background: url(../img/board-actived.png);*/
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    vertical-align:top;
+}
+#movies li a .cont_tit p:last-child{
+    font-weight:700;
+}
+#movies li a div img{
+    display: block;
+}
